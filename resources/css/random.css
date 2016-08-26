@@ -1,0 +1,64 @@
+body, .container-fluid {
+  transition: background 1s linear;
+}  
+.quote-box { 
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%);
+  background-color: white;  
+  box-shadow: 5px 5px 5px black; 
+}
+
+.wrapper {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+
+#quote-text {
+  color: rgb(100,100,100); 
+  transition: color 1s linear;
+} 
+
+#quote-author {
+  color: rgb(100,100,100);
+  transition: color 1s linear;
+}
+
+.fa-stack {
+  margin-right: 0.5vw;
+}
+
+.fa-square-o { 
+  transition: color 1s linear, background 1s linear;
+  color: white;
+}  
+
+ 
+.fa-facebook {
+  color: white;
+}
+.fa-stack:hover {
+  opacity: 0.8;
+}
+.fa-twitter {
+  color: white;
+}
+
+.btn-custom { 
+  border: none;
+  color: white;
+  transition: background 1s linear;
+}
+
+.btn-custom:hover { 
+  color: white;
+  opacity: 0.8;
+}
+.btn-custom:active{  
+  color: white;
+}
+ .btn-custom:focus {  
+  color: white;
+  border-radius: 0;
+}
+   
